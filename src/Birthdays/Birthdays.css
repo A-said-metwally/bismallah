@@ -1,0 +1,68 @@
+.birthday {
+    color: tomato;
+    font-size: 18px;
+}
+.birthday i{
+    width: 25px;
+    height: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    color:#1876f2;
+}
+.birthday-container{
+width: 100%;
+margin-top: 10px;
+}
+.birthday-container:hover{
+    background-color: hsl(0, 10%, 84%);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding: 5px;
+
+}
+.wrap img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid hsl(253, 93%, 52%);
+}
+
+.birthday-container .data p{
+    font-size: 18px;
+}
+.birthday-container .data span{
+    /* font-weight: bold; */
+    color: #626262;
+    font-size: 15px;
+    display: block;
+    padding: 2px 0 ;
+}
+.birthday-container button{
+    background: transparent;
+    color: mediumblue;
+    border:none;
+    font-size: 15px;
+    margin-left: 60%;
+    margin-bottom: 2px;
+}
+.birthday-container button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Birthday-content{
+    margin-bottom: 15px;
+    border-bottom:1px solid #ccc ;
+
+}
+.seeall{
+    color:#1876f2;
+    margin-bottom: 15px;
+
+}
